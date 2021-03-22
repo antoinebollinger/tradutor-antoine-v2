@@ -1,0 +1,1 @@
+<div id="div_patientez"><img src="css/images/patientez.gif" /></div>

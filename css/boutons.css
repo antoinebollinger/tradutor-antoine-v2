@@ -1,0 +1,110 @@
+/* BOUTONS */
+button, input[type=submit], input[type=reset], input[type=button] {
+display: inline-block;
+min-height:30px;
+line-height:30px;
+width:100%;
+margin: 0 0 20px 0;
+padding:0;
+color:#ffffff;
+box-shadow: 0 0 10px #000000, 0 -1px 0 #ffffff;
+border-radius: 4px;
+border:none;
+font:normal 1em 'Roboto', Arial, sans-serif;
+text-align:center;
+text-shadow: 0px 1px 0px rgba( 255, 255, 255, 0.2);
+text-decoration: none;
+cursor: pointer;
+transition:0.2s;
+white-space:nowrap;
+overflow:hidden;
+text-overflow:ellipsis;
+}
+button, input[type=submit], input[type=reset], input[type=button] {
+background-color:#104050;
+background-image: linear-gradient(#7298A4,transparent);
+}
+button:hover, input[type=submit]:hover, input[type=reset]:hover, input[type=button]:hover {
+background-color:#006677;
+background-image: linear-gradient(#7298A4,transparent);
+}
+button:active, input[type=submit]:active, input[type=reset]:active, input[type=button]:active {
+box-shadow: 1px 1px 10px black inset, 0 1px 0 rgba( 255, 255, 255, 0.4);
+outline:none;
+}
+button:hover, input[type=submit]:hover, input[type=reset]:hover, input[type=button]:hover, 
+button:focus, input[type=submit]:focus, input[type=reset]:focus, input[type=button]:focus {
+outline:none;
+}
+button:disabled, button:disabled:hover, button:disabled:focus, button:disabled:active {
+border:1px solid #ccc;
+color:#565656;
+text-shadow:0 0 1px #ffffff;
+background-image:none;
+background-color:#C0C0C0;
+box-shadow:none;
+cursor:default;
+}
+/* FORMULAIRE */
+fieldset {
+margin-bottom: 20px; 
+border: 2px solid #7298A4;
+}
+legend {
+display: block;
+font-weight: bold;
+font-size: 1em;  
+color: #7298A4;
+}
+input[type=text], input[type=password], input[type=email], input[type=float], input[type=number], input[type=date], textarea, select {
+display: block;
+box-sizing:border-box;
+min-height:30px;
+width:100%;
+line-height:30px;
+margin: 0 0 20px 0;	
+padding:0 1%;
+background-color:#ffffff;
+border-radius: 4px;
+border:1px solid #ccc;
+font: 1em 'Open Sans', Arial, sans-serif;
+transition:0.2s;
+outline: none;
+}
+select {
+width:100%;
+padding:0;
+}
+input[type=text]:required, input[type=password]:required, input[type=email]:required, input[type=float]:required, input[type=number]:required, input[type=date]:required, textarea:required, select:required {
+/*border: 1px solid #C00000;*/
+}
+input[type=text]:hover, input[type=password]:hover, input[type=email]:hover, input[type=float]:hover, input[type=number]:hover, input[type=date]:hover, textarea:hover, select:hover,
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=float]:focus, input[type=number]:focus, input[type=date]:focus, textarea:focus, select:focus {
+border: 1px solid #D6AE4A;
+background-color:#FFF5DB;
+-moz-box-shadow: inset 0 0 3px #D6AE4A;
+-webkit-box-shadow: inset 0 0 3px #D6AE4A;
+box-shadow: inset 0 0 3px #D6AE4A;
+}
+input:disabled, input:disabled:hover, input:disabled:focus, 
+select:disabled, select:disabled:hover, select:disabled:focus, textarea:disabled, textarea:disabled:hover, textarea:disabled:focus {
+border:1px solid #ccc;
+background-image:none;
+background-color:#EFEFEF;
+box-shadow:none;
+cursor:default;
+}
+textarea {
+min-height: 172px; 
+}
+legend {
+display: block;
+font-weight: bold;
+font-size: 1em;  
+}
+input[type=checkbox] {
+display: inline; 
+}
+label {
+font-size:1em;
+}
